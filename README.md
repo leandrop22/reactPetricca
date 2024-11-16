@@ -1,50 +1,9 @@
-# React + TypeScript + Vite
+TRABAJO REACT - PETRICCA - 49048
+Descomprimir el zip, verificar que este instalado node.js para poder ejecutar el comando "npm run dev", el cual nos dará el puerto de nuestra app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para corroborar el correcto funcionamiento pruebe ingresando los siguientes productos con sus respectivos datos.
+Hamburguesa Simple: link de imagen: "https://lasrecetasdelaura.es/wp-content/uploads/hamburguesa-con-queso.jpg" precio: 10000
 
-Currently, two official plugins are available:
+Papas Fritas: link de imagen: "https://www.lavoz.com.ar/resizer/v2/U5NPF5YMZNHE3JDBWT3QJ2XW3Q.jpg?auth=9394b56602a3cd3e37aedccf86a41ecf31b1db99fba0ee32c563ebe0567886ff&width=1280&height=720" precio: 8000
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+CocaCola: link de imagen: "https://imgs.search.brave.com/8U651N38HYFsTxNiSZmhjWg7-Ri-7IIkfpa68DM-BJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MjQ3OTczNzU5Nzgt/OGMyZjc0NmJkZDNh/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE5ueDhZMjlq/WVdOdmJHRjhaVzU4/TUh4OE1IeDhmREE9" precio: 2500
